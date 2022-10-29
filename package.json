@@ -1,0 +1,33 @@
+{
+  "name": "mithral-tracker",
+  "version": "0.0.1",
+  "description": "Tracking App for Household Purchases",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "lint": "eslint src --fix",
+    "xstart": "node --loader ts-node/esm src/app.tsx",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwdunham/mithral-tracker.git"
+  },
+  "author": "David Dunham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwdunham/mithral-tracker/issues"
+  },
+  "homepage": "https://github.com/dwdunham/mithral-tracker#readme",
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "preact": "^10.6.6",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
+  }
+}
